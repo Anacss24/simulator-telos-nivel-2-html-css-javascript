@@ -5,7 +5,7 @@ Agora vamos atuar com um mini-projeto real (com o que há de melhor no mercado
 hehe), onde você vai ter a possibilidade de construir um projeto desde a sua
 idealização, organização e atuação onde cada tarefa será versionada no GitHub
 
-# Descrição
+## Descrição
 A empresa XPTO decidiu contratar um especialista em HTML, CSS & Javascript(que
 coincidência) e irá precisar dos seus serviços para avaliar um sistema legado (sistema já
 um pouco antigo e desatualizado) e melhorá-lo com base nas boas práticas que temos
@@ -21,7 +21,7 @@ físicos, como também públicos que só acessam pelo celular por exemplo)
   <li>Manutenível</li>
 </ol>
 
-# Organização 
+## Organização 
 
 ### Critérios de aceitação:
 
@@ -31,20 +31,20 @@ arquivo index.js e o CSS em um arquivo styles.css</li>
   <li>A utilização dos arquivos será de pôr importação externa.</li>
 </ol>
 
-# Responsividade
+## Responsividade
 
 <ol>
   <li>O sistema deve ser responsivo.</li>
 </ol>
 
-# Acessível
+## Acessível
 
 <ol>
   <li>O website não deve ter nenhum elemento (nem mesmo um texto)
 em uma categoria inferior ao nível Aa</li>
 </ol>
 
-# Apresentação de conteúdo
+## Apresentação de conteúdo
 
 <ol>
   <li>Banner</li>
@@ -54,7 +54,7 @@ em uma categoria inferior ao nível Aa</li>
   <li>Rodapé da página</li>
 </ol>
 
-# Código Limpo
+## Código Limpo
 
 <ol>
   <li>O código deve seguir os padrões de semântica e gramática
