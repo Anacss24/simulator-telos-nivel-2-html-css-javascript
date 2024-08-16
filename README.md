@@ -61,6 +61,9 @@ em uma categoria inferior ao nível Aa</li>
 esperados para a internet dos dias de hoje</li>
 </ol>
 
+<p align="center">
+Desenvolvido por <i>Ana Claudia Santana</i> :orange_heart:
+</p>
 
 
 
