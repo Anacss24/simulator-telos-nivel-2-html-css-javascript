@@ -2,58 +2,86 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <script src="./assets/js/script.js" defer></script>
-    <title>Site XPTO</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Ana Claudia S.">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="icon" href="./assets/img/icons8-arco-e-flecha-32.png">
+  <script src="./assets/js/script.js" defer></script>
+  <title>Site XPTO</title>
 </head>
+
 <body>
-    <header class="header">
-      <a href="#">XPTO</a>
-        <nav>
-            <ul class="menu">
-                <li><a href="">Quem Somos</a></li>
-                <li><a href="#servicos">Serviços</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section class="container_banner">
-      <h1 class="banner_titulo">Quem somos</h1>
-          <p>Somos XPTO, atuamos com isso, isso e aquilo a muitos anos no mercado, contrate já!</p>
-          <a id="buttom_banner" href="#">Contrate</a>
-    </section>
-    <main>
-      <h2 id="servicos">Interessado? Vem ser XPTO</h2>
-      <section class="container_main">
-        <div class="container_card">
-          <figure>
-            <a href=""><img src="https://img.freepik.com/fotos-gratis/jovem-empresaria-com-colegas-de-trabalho_1098-1776.jpg? ga=GA1.1.110293699.1721478767&semt=sph"alt="">
-            </figure></a>
-          <p>Somos Especialistas</p>
-        </div>
-        <div class="container_card">
-          <figure>
-            <a href=""><img src="https://img.freepik.com/fotos-gratis/pessoas-de-tiro-medio-aprendendo-idioma-no-trabalho_23-2149300729.jpg?ga=GA1.1.110293699.1721478767&semt=ais_hybrid"alt=""></a>
-          </figure>
-          <p>Time capacitado</p>
-        </div>
-        <div class="container_card">
-          <figure>
-            <a href=""><img src="https://img.freepik.com/fotos-gratis/alegre-empresaria-asiatica-com-bracos-levantados-celebrando-boas-noticias-sobre-o-computador-no-escritorio_637285-2762.jpg?ga=GA1.1.110293699.1721478767&semt=ais_hybrid"alt=""></a>
-          </figure>
-          <p>Apaixonados pelo sucesso</p>
-        </div>
-      </section>
-    </main>
-    <footer id="contato">
-      <a href="#header">XPTO</a>
-      <ul>
-        <h4>Nossas Redes Sociais</h4>
-        <a href="https://github.com/"><img src="./assets/img/icons8-facebook-30.png" alt=""></a>
-        <a href="https://github.com/"><img src="./assets/img/icons8-instagram-30.png" alt=""></a>
+  <!-- Cabeçalho da Página -->
+  <header class="header">
+    <a href="#">XPTO</a>
+    <nav>
+      <ul class="menu">
+        <li><a href="">Quem Somos</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#contato">Contato</a></li>
       </ul>
-    </footer>
-  </body>
+    </nav>
+  </header>
+  
+  <!-- Seção do Banner -->
+  <section class="container_banner">
+    <article class="banner_texto">
+      <h1 class="banner_titulo">Quem somos</h1>
+      <p>Somos XPTO, atuamos com isso, isso e aquilo a muitos anos no mercado, contrate já!</p>
+      <a id="buttom_banner" href="#">Contrate</a>
+    </article>
+    <article class="banner_img">
+      <img src="./assets/img/banner_circular.jpg"
+        alt="Mulher vestida de forma profissional, trabalhando em um laptop em um escritório." width="490px">
+    </article>
+  </section>
+
+  <!-- Seção principal da página  -->
+  <main id="servicos">
+    <h2>Interessado? Vem ser XPTO</h2>
+    <section class="container_main">
+      <article class="container_card">
+        <figure>
+          <img
+            src="https://img.freepik.com/fotos-gratis/jovem-empresaria-com-colegas-de-trabalho_1098-1776.jpg? ga=GA1.1.110293699.1721478767&semt=sph"
+            alt="Grupo de cinco pessoas, três homens e duas mulheres em roupas de negócios sorrindo">
+          <figcaption> Somos Especialistas </figcaption>
+        </figure>
+      </article>
+      <article class="container_card">
+        <figure>
+          <img
+            src="https://img.freepik.com/fotos-gratis/pessoas-de-tiro-medio-aprendendo-idioma-no-trabalho_23-2149300729.jpg?ga=GA1.1.110293699.1721478767&semt=ais_hybrid"
+            alt="Grupo de cinco pessoas em reunião, com uma mulher apresentando">
+          <figcaption> Time capacitado </figcaption>
+        </figure>
+      </article>
+      <article class="container_card">
+        <figure>
+          <img
+            src="https://img.freepik.com/fotos-gratis/alegre-empresaria-asiatica-com-bracos-levantados-celebrando-boas-noticias-sobre-o-computador-no-escritorio_637285-2762.jpg?ga=GA1.1.110293699.1721478767&semt=ais_hybrid"
+            alt="Duas pessoas comemorando em frente a um computador">
+          <figcaption> Apaixonados pelo sucesso </figcaption>
+        </figure>
+      </article>
+    </section>
+  </main>
+
+  <!-- Rodapé da Página -->
+  <footer id="contato">
+    <a href="">XPTO</a>
+    <article class="footer_titulo">
+      <h4>Nossas Redes Sociais</h4>
+      <article class="footer_redes">
+        <a href="https://github.com/" target="_blank"><img src="./assets/img/icons8-facebook-50.png"
+            alt="Ícone do facebook"></a>
+        <a href="https://github.com/" target="_blank"><img src="./assets/img/icons8-instagram-50.png"
+            alt="Ícone do instagram"></a>
+      </article>
+    </article>
+  </footer>
+</body>
+
 </html>

@@ -5,6 +5,8 @@
     list-style-type: none
 }
 
+/* Cabeçalho da Página  */
+
 header {
   display: flex;
   font-size: 1.2rem;
@@ -13,12 +15,15 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 2%;
+  background-color: blue;
+  position: sticky;
+  top: 0;
 }
 
 header > a {
   text-transform: uppercase;
   text-decoration: none;
-  color: blue;
+  color: white;
   font-size: 2.0rem;
 }
 
@@ -30,94 +35,94 @@ header > nav > ul {
 
 header > nav > ul > li > a {
   text-decoration: none;
-  color: blue; 
+  color: white; 
   font-size: 1.2rem;
 }
 
- /* Banner  */
+ /* Seção do Banner  */
+
 .container_banner{
- background-image: url('../img/banner.jpg');
- background-repeat: no-repeat;
- background-size: cover;
- width: 100%;
- height: 90vh;
+ width: 90vw;
+ height: 80vh;
+ margin: 4%;
  display: flex;
- flex-direction: column;
+ flex-direction: row;
  justify-content: center;
- 
+ align-items: center;
 }
 
 .banner_titulo{
   font-size: 3.2rem;
-  margin-left: 20%;
-  color: white;
 }
 
-.container_banner > p{
-  color: white;
+.banner_texto > p{
   font-size: 1.8rem;
-  margin-left: 20%;
-  margin-top: 4%;
   width: 80%;
+  margin: 9% 0px;
 }
 
-.container_banner > a{
+#buttom_banner{
   background-color: blue;
-  width: 25%;
   color: white;
   font-size: 30px;
-  margin-left:20%;
-  margin-top: 4%;
   border-radius: 20px;
   padding: 1%; 
-  text-decoration: none; 
-  text-align: center;
-
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  width: 35%;
 }
 
-/* Main  */
+ /* Seção principal da página  */
+
+main {
+ height: 80vh;
+
+}
 main > h2 {
   text-align: center;
-  margin: 20px;
   font-size: 30px;
+  padding-top: 2%;
 }
 
 .container_main{
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10%;
+  gap: 10%; 
+  margin-top: 5%;
 }
 
 .container_card{
   width: 250px;
-  background-color: rgba(217, 217, 217, 1);
+  background-color: none;
   margin: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 210px;
 }
 
-.container_card > figure > a > img{
+.container_card > figure > img{
   width: 400px;
   border-radius: 30px;
 }
 
-.container_card > figure > a > img:hover{
+.container_card > figure > img:hover{
   zoom: 105%;
 }
 
-.container_card > p{
+figure > figcaption{
   font-size: 20px;
-  color: blue;
   font-weight: bold;
   margin-top: 5%;
+  text-align: center;
 }
 
-/* Contato */
+
+/* Rodapé da Página  */
+
 footer {
-  background-color: black;
+  background-color: blue;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -126,43 +131,69 @@ footer {
   margin-top: 7%;
 }
 
+.footer_redes{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 footer > a {
   text-decoration: none;
   font-size: 30px;
   color: white;
 }
 
-footer > ul > a {
-  text-decoration: none;
-  font-size: 30px;
-  color: white;
+.footer_redes{
+  display: flex;
+  flex-direction: row;
 }
 
-footer > ul > h4 {
+.footer_titulo > h4 {
   color: white;
   font-size: 18px;
 }
 
-footer > ul > a > img {
-  width: 32px;
-  margin-left: 30px;
-  margin-top: 5%;
+.footer_redes > a > img {
+  width: 70%;
+  margin-left: 70%;
+  margin-top: 8%;
 }
 
-footer > ul > a > img:hover {
-  zoom: 104%;
+.footer_redes > a:hover {
+  zoom: 110%;
 }
 
 @media (max-width: 1020px){
+
+  .container_banner{
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .banner_img > img{
+    width: 350px;
+    margin-top: 5%;
+  }
+
+  .banner_texto > p{
+    margin: 20px 0px;
+  }
+
+  main > h2 {
+    margin-top: 25%;
+  }
+  
   .container_main{
     flex-direction: column;
   }
-  .container_card > figure > a > img{
-    width: 300px;
-   
+
+  .container_card > figure > img{
+    width: 350px;
   }
 
-  .container_banner > a{
-    width: 40%;
+  footer{
+    padding: 0px;
+    margin-top: 125%;
+    height: 15vh;
   }
 }
